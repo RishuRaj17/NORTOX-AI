@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textStyle="italic|bold"
+        android:textSize="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="NORTOX" />
+
+    <TextView
+        android:id="@+id/sPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="Hii! How can i help you today?"
+        android:layout_margin="18dp"/>
+
+
+    <EditText
+            android:id="@+id/eTPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Prompt..."
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="25dp">
+        <TextView
+            android:id="@+id/tVResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:padding="6dp"
+            android:layout_marginBottom="8dp"
+            android:text="" />
+    </ScrollView>
+
+
+
+</LinearLayout>
+
